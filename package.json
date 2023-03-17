@@ -1,0 +1,22 @@
+{
+  "name": "tailwind_coffee-style",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lethanhtong31071999/tailwind_coffee-style.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lethanhtong31071999/tailwind_coffee-style/issues"
+  },
+  "homepage": "https://github.com/lethanhtong31071999/tailwind_coffee-style#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
