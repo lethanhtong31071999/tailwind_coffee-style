@@ -6,7 +6,7 @@
 /* ct means custom */
 .ct-top-menu-item {
   @apply cursor-pointer py-1 hover:text-gray-800 relative 
-        lg:after:absolute lg:after:bottom-0 lg:after:left-0 lg:after:bg-light-coffee lg:after:h-0.5 lg:after:w-0 
+        lg:after:absolute lg:after:bottom-0 lg:after:left-0 lg:after:bg-coffee-200 lg:after:h-0.5 lg:after:w-0 
         hover:after:w-full lg:after:transition-all lg:after:ease-in-out lg:after:duration-300;
 }
 
@@ -24,4 +24,16 @@
 
 .ct-topmenu-expanded {
   @apply absolute top-10 z-50 w-full text-center bg-white animate-slideDown py-4;
+}
+
+.ct-subheadline {
+  @apply flex items-center justify-center mb-24;
+}
+
+.ct-subheadline-label {
+  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-xs text-center;
+}
+
+.ct-subheadline-deco-line {
+  @apply w-8 h-px bg-gray-300;
 }
