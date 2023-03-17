@@ -4,25 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../public/output.css" />
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Maple_Leaf.svg/1200px-Maple_Leaf.svg.png"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../public/output.css"
+      sizes="16x16"
+    />
     <title>Coffe Style</title>
   </head>
   <body>
     <div id="root">
       <div
-        class="content-wrapper max-w-screen-2xl text-base mx-auto px-8 bg-slate-400"
+        class="content-wrapper font-Karla max-w-screen-2xl text-base mx-auto px-8 bg-slate-400"
       >
-        <header class="py-6 mx-10">
-          <nav class="flex flex-row justify-between items-center">
+        <header class="p-6 mx-auto md:mx-10">
+          <nav class="flex flex-row items-center justify-between relative">
             <div
-              class="logo basis-2/6 font-semibold text-center text-xl cursor-pointer"
+              class="logo basis-4/6 font-semibold text-xl cursor-pointer text-start"
             >
               CoffeeStyle.
             </div>
             <ul
-              class="basis-3/6 flex items-center justify-end gap-8 uppercase text-sm text-gray-500 font-medium"
+              id="ct-top-menu"
+              class="hidden lg:flex lg:basis-3/6 items-center justify-end gap-8 uppercase text-sm text-gray-500 font-medium border-b-2 border-gray-400"
             >
-              <li class="ct-top-menu-item">
+              <li class="ct-top-menu-item ct-top-menu-item-active">
                 <a href="#" class="">Home</a>
               </li>
               <li class="ct-top-menu-item">
@@ -43,9 +53,9 @@
             </ul>
 
             <ul
-              class="basic-1/6 flex justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium"
+              class="basis-2/12 lg:basic-1/6 flex justify-end items-center uppercase text-sm text-gray-500 font-medium ml-auto"
             >
-              <li class="ct-top-menu-item">
+              <li class="ct-top-menu-item mx-4">
                 <a href="#" class="flex items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -68,6 +78,26 @@
                 </a>
               </li>
             </ul>
+
+            <div
+              class="lg:hidden basis-1/12 flex items-center justify-end ml-2"
+            >
+              <svg
+                id="ct-toggle-top-menu-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="ct-icon cursor-pointer"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </div>
           </nav>
         </header>
 
@@ -97,5 +127,7 @@
         <footer>footer</footer>
       </div>
     </div>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>
