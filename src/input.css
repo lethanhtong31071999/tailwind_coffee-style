@@ -37,3 +37,7 @@
 .ct-subheadline-deco-line {
   @apply w-8 h-px bg-gray-300;
 }
+
+.ct-btn {
+  @apply py-4 px-8 text-base text-center uppercase tracking-wider text-gray-900 bg-white min-w-[100px] hover:opacity-80 transition-all font-semibold;
+}
