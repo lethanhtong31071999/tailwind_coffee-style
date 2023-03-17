@@ -18,6 +18,10 @@
   @apply w-5 h-5 inline-block;
 }
 
+.ct-icon-logo {
+  @apply w-10 h-10 inline-block;
+}
+
 .ct-badge-circle {
   @apply text-xs text-center rounded-full px-1.5;
 }
