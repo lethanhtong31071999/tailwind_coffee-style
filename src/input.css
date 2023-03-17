@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ct: custom */
+/* ct means custom */
 .ct-top-menu-item {
   @apply cursor-pointer py-1 hover:text-gray-800 relative 
         lg:after:absolute lg:after:bottom-0 lg:after:left-0 lg:after:bg-light-coffee lg:after:h-0.5 lg:after:w-0 
