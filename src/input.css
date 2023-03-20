@@ -35,13 +35,17 @@
 }
 
 .ct-subheadline-label {
-  @apply uppercase mx-4 tracking-widest text-gray-500 font-medium text-xs text-center;
+  @apply uppercase tracking-widest text-gray-500 font-medium text-xs text-center;
 }
 
 .ct-subheadline-deco-line {
-  @apply w-8 h-px bg-gray-300;
+  @apply w-8 h-px mx-4 bg-gray-300;
 }
 
 .ct-btn {
   @apply py-4 px-8 text-base text-center uppercase tracking-wider text-gray-900 bg-white min-w-[100px] hover:opacity-80 transition-all font-semibold;
+}
+
+.ct-main-layout {
+  @apply w-[90%] md:w-[75%] lg:w-[65%] mx-auto mb-16;
 }
