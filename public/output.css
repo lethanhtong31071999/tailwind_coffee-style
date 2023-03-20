@@ -531,20 +531,16 @@ video {
   left: 50%;
 }
 
+.left-\[calc\(50\%-50vw\)\]{
+  left: calc(50% - 50vw);
+}
+
 .right-2{
   right: 0.5rem;
 }
 
 .top-2{
   top: 0.5rem;
-}
-
-.left-\[calc\(50\%050vw\)\]{
-  left: calc(50%050vw);
-}
-
-.left-\[calc\(50\%-50vw\)\]{
-  left: calc(50% - 50vw);
 }
 
 .mx-16{
@@ -575,8 +571,16 @@ video {
   margin-bottom: 3rem;
 }
 
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
 .mb-4{
   margin-bottom: 1rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
 }
 
 .mb-6{
@@ -623,12 +627,20 @@ video {
   display: none;
 }
 
+.aspect-square{
+  aspect-ratio: 1 / 1;
+}
+
 .h-\[130px\]{
   height: 130px;
 }
 
 .h-\[280px\]{
   height: 280px;
+}
+
+.h-\[300px\]{
+  height: 300px;
 }
 
 .h-\[380px\]{
@@ -671,6 +683,10 @@ video {
   width: 2rem;
 }
 
+.w-\[100vw\]{
+  width: 100vw;
+}
+
 .w-full{
   width: 100%;
 }
@@ -678,10 +694,6 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[100vw\]{
-  width: 100vw;
 }
 
 .max-w-screen-2xl{
@@ -719,6 +731,10 @@ video {
 
 .cursor-pointer{
   cursor: pointer;
+}
+
+.cursor-text{
+  cursor: text;
 }
 
 .grid-cols-1{
@@ -802,6 +818,10 @@ video {
   background-image: url('./images/featured-mug-02.jpg');
 }
 
+.bg-\[url\(\'\.\/images\/lifestyle-story-01\.jpeg\'\)\]{
+  background-image: url('./images/lifestyle-story-01.jpeg');
+}
+
 .bg-\[url\(\'\.\/images\/magazine-image-01\.jpeg\'\)\]{
   background-image: url('./images/magazine-image-01.jpeg');
 }
@@ -852,6 +872,14 @@ video {
 
 .bg-\[url\(\'\.\/images\/slider-bg\.jpg\'\)\]{
   background-image: url('./images/slider-bg.jpg');
+}
+
+.bg-\[url\(\'\.\/images\/lifestyle-story-02\.jpeg\'\)\]{
+  background-image: url('./images/lifestyle-story-02.jpeg');
+}
+
+.bg-\[url\(\'\.\/images\/lifestyle-story-03\.jpeg\'\)\]{
+  background-image: url('./images/lifestyle-story-03.jpeg');
 }
 
 .bg-cover{
@@ -906,6 +934,10 @@ video {
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.text-left{
+  text-align: left;
 }
 
 .text-center{
@@ -1178,7 +1210,32 @@ video {
 }
 
 .ct-btn:hover{
-  opacity: 0.8;
+  opacity: 0.9;
+}
+
+.ct-btn-text-xs{
+  min-width: 100px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.ct-btn-text-xs:hover{
+  opacity: 0.9;
 }
 
 .ct-main-layout{

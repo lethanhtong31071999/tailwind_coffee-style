@@ -43,7 +43,11 @@
 }
 
 .ct-btn {
-  @apply py-4 px-8 text-base text-center uppercase tracking-wider text-gray-900 bg-white min-w-[100px] hover:opacity-80 transition-all font-semibold;
+  @apply py-4 px-8 text-base text-center uppercase tracking-wider text-gray-900 bg-white min-w-[100px] hover:opacity-90 transition-all font-semibold;
+}
+
+.ct-btn-text-xs {
+  @apply py-4 px-8 text-xs text-center uppercase tracking-wider text-gray-900 bg-white min-w-[100px] hover:opacity-90 transition-all font-semibold;
 }
 
 .ct-main-layout {
