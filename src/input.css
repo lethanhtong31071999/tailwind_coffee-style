@@ -27,7 +27,7 @@
 }
 
 .ct-topmenu-expanded {
-  @apply fixed top-0 left-0 right-0 z-50 w-full text-center bg-white animate-slideDown py-4 shadow-md;
+  @apply absolute top-[80px] left-0 right-0 z-50 w-full text-center bg-white animate-slideDown py-4 shadow-md;
 }
 
 .ct-subheadline {
