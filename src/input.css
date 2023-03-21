@@ -53,3 +53,7 @@
 .ct-main-layout {
   @apply w-[90%] md:w-[75%] lg:w-[65%] mx-auto mb-16;
 }
+
+.ct-signup-input::placeholder {
+  @apply text-gray-500;
+}
